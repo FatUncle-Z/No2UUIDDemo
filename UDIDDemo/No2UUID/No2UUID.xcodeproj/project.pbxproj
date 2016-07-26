@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF16A0BB1D476B2B00E76903 /* No2UUID.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF16A0BA1D476B2B00E76903 /* No2UUID.h */; };
+		EF16A0BD1D476B2B00E76903 /* No2UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = EF16A0BC1D476B2B00E76903 /* No2UUID.m */; };
+		EF16A0C41D476B4300E76903 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF16A0C31D476B4300E76903 /* AdSupport.framework */; };
+		EF16A0C61D476B4D00E76903 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF16A0C51D476B4D00E76903 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF16A0B51D476B2B00E76903 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EF16A0BB1D476B2B00E76903 /* No2UUID.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF16A0B71D476B2B00E76903 /* libNo2UUID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNo2UUID.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF16A0BA1D476B2B00E76903 /* No2UUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No2UUID.h; sourceTree = "<group>"; };
+		EF16A0BC1D476B2B00E76903 /* No2UUID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = No2UUID.m; sourceTree = "<group>"; };
+		EF16A0C31D476B4300E76903 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EF16A0C51D476B4D00E76903 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EF16A0C71D47730E00E76903 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF16A0B41D476B2B00E76903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16A0C61D476B4D00E76903 /* Security.framework in Frameworks */,
+				EF16A0C41D476B4300E76903 /* AdSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF16A0AE1D476B2B00E76903 = {
+			isa = PBXGroup;
+			children = (
+				EF16A0C71D47730E00E76903 /* build.sh */,
+				EF16A0C51D476B4D00E76903 /* Security.framework */,
+				EF16A0C31D476B4300E76903 /* AdSupport.framework */,
+				EF16A0B91D476B2B00E76903 /* No2UUID */,
+				EF16A0B81D476B2B00E76903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF16A0B81D476B2B00E76903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0B71D476B2B00E76903 /* libNo2UUID.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF16A0B91D476B2B00E76903 /* No2UUID */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0BA1D476B2B00E76903 /* No2UUID.h */,
+				EF16A0BC1D476B2B00E76903 /* No2UUID.m */,
+			);
+			path = No2UUID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF16A0B61D476B2B00E76903 /* No2UUID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF16A0C01D476B2B00E76903 /* Build configuration list for PBXNativeTarget "No2UUID" */;
+			buildPhases = (
+				EF16A0B31D476B2B00E76903 /* Sources */,
+				EF16A0B41D476B2B00E76903 /* Frameworks */,
+				EF16A0B51D476B2B00E76903 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = No2UUID;
+			productName = No2UUID;
+			productReference = EF16A0B71D476B2B00E76903 /* libNo2UUID.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF16A0AF1D476B2B00E76903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhaojun;
+				TargetAttributes = {
+					EF16A0B61D476B2B00E76903 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EF16A0B21D476B2B00E76903 /* Build configuration list for PBXProject "No2UUID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF16A0AE1D476B2B00E76903;
+			productRefGroup = EF16A0B81D476B2B00E76903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF16A0B61D476B2B00E76903 /* No2UUID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF16A0B31D476B2B00E76903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16A0BD1D476B2B00E76903 /* No2UUID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF16A0BE1D476B2B00E76903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF16A0BF1D476B2B00E76903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF16A0C11D476B2B00E76903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF16A0C21D476B2B00E76903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF16A0B21D476B2B00E76903 /* Build configuration list for PBXProject "No2UUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF16A0BE1D476B2B00E76903 /* Debug */,
+				EF16A0BF1D476B2B00E76903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF16A0C01D476B2B00E76903 /* Build configuration list for PBXNativeTarget "No2UUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF16A0C11D476B2B00E76903 /* Debug */,
+				EF16A0C21D476B2B00E76903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF16A0AF1D476B2B00E76903 /* Project object */;
+}

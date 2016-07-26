@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF16A0711D46FAF600E76903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF16A0701D46FAF600E76903 /* main.m */; };
+		EF16A0741D46FAF600E76903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF16A0731D46FAF600E76903 /* AppDelegate.m */; };
+		EF16A0771D46FAF600E76903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF16A0761D46FAF600E76903 /* ViewController.m */; };
+		EF16A07A1D46FAF600E76903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF16A0781D46FAF600E76903 /* Main.storyboard */; };
+		EF16A07C1D46FAF600E76903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF16A07B1D46FAF600E76903 /* Assets.xcassets */; };
+		EF16A07F1D46FAF600E76903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF16A07D1D46FAF600E76903 /* LaunchScreen.storyboard */; };
+		EF16A08A1D46FAF600E76903 /* UDIDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF16A0891D46FAF600E76903 /* UDIDDemoTests.m */; };
+		EF16A0951D46FAF600E76903 /* UDIDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF16A0941D46FAF600E76903 /* UDIDDemoUITests.m */; };
+		EF16A0CE1D477AC300E76903 /* libNo2UUID.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF16A0CD1D477AC300E76903 /* libNo2UUID.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF16A0861D46FAF600E76903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF16A0641D46FAF600E76903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF16A06B1D46FAF600E76903;
+			remoteInfo = UDIDDemo;
+		};
+		EF16A0911D46FAF600E76903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF16A0641D46FAF600E76903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF16A06B1D46FAF600E76903;
+			remoteInfo = UDIDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF16A06C1D46FAF600E76903 /* UDIDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDIDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF16A0701D46FAF600E76903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF16A0721D46FAF600E76903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF16A0731D46FAF600E76903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF16A0751D46FAF600E76903 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF16A0761D46FAF600E76903 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF16A0791D46FAF600E76903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF16A07B1D46FAF600E76903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF16A07E1D46FAF600E76903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF16A0801D46FAF600E76903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF16A0851D46FAF600E76903 /* UDIDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDIDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF16A0891D46FAF600E76903 /* UDIDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDIDDemoTests.m; sourceTree = "<group>"; };
+		EF16A08B1D46FAF600E76903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF16A0901D46FAF600E76903 /* UDIDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDIDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF16A0941D46FAF600E76903 /* UDIDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDIDDemoUITests.m; sourceTree = "<group>"; };
+		EF16A0961D46FAF600E76903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF16A0CB1D477AC300E76903 /* No2UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = No2UUID.h; sourceTree = "<group>"; };
+		EF16A0CD1D477AC300E76903 /* libNo2UUID.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNo2UUID.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF16A0691D46FAF600E76903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16A0CE1D477AC300E76903 /* libNo2UUID.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF16A0821D46FAF600E76903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF16A08D1D46FAF600E76903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF16A0631D46FAF600E76903 = {
+			isa = PBXGroup;
+			children = (
+				EF16A0C81D477AC300E76903 /* sdk */,
+				EF16A06E1D46FAF600E76903 /* UDIDDemo */,
+				EF16A0881D46FAF600E76903 /* UDIDDemoTests */,
+				EF16A0931D46FAF600E76903 /* UDIDDemoUITests */,
+				EF16A06D1D46FAF600E76903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF16A06D1D46FAF600E76903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A06C1D46FAF600E76903 /* UDIDDemo.app */,
+				EF16A0851D46FAF600E76903 /* UDIDDemoTests.xctest */,
+				EF16A0901D46FAF600E76903 /* UDIDDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF16A06E1D46FAF600E76903 /* UDIDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0721D46FAF600E76903 /* AppDelegate.h */,
+				EF16A0731D46FAF600E76903 /* AppDelegate.m */,
+				EF16A0751D46FAF600E76903 /* ViewController.h */,
+				EF16A0761D46FAF600E76903 /* ViewController.m */,
+				EF16A0781D46FAF600E76903 /* Main.storyboard */,
+				EF16A07B1D46FAF600E76903 /* Assets.xcassets */,
+				EF16A07D1D46FAF600E76903 /* LaunchScreen.storyboard */,
+				EF16A0801D46FAF600E76903 /* Info.plist */,
+				EF16A06F1D46FAF600E76903 /* Supporting Files */,
+			);
+			path = UDIDDemo;
+			sourceTree = "<group>";
+		};
+		EF16A06F1D46FAF600E76903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0701D46FAF600E76903 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF16A0881D46FAF600E76903 /* UDIDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0891D46FAF600E76903 /* UDIDDemoTests.m */,
+				EF16A08B1D46FAF600E76903 /* Info.plist */,
+			);
+			path = UDIDDemoTests;
+			sourceTree = "<group>";
+		};
+		EF16A0931D46FAF600E76903 /* UDIDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0941D46FAF600E76903 /* UDIDDemoUITests.m */,
+				EF16A0961D46FAF600E76903 /* Info.plist */,
+			);
+			path = UDIDDemoUITests;
+			sourceTree = "<group>";
+		};
+		EF16A0C81D477AC300E76903 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0C91D477AC300E76903 /* No2UUID */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		EF16A0C91D477AC300E76903 /* No2UUID */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0CA1D477AC300E76903 /* Include */,
+				EF16A0CC1D477AC300E76903 /* lib */,
+			);
+			path = No2UUID;
+			sourceTree = "<group>";
+		};
+		EF16A0CA1D477AC300E76903 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0CB1D477AC300E76903 /* No2UUID.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		EF16A0CC1D477AC300E76903 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EF16A0CD1D477AC300E76903 /* libNo2UUID.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF16A06B1D46FAF600E76903 /* UDIDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF16A0991D46FAF600E76903 /* Build configuration list for PBXNativeTarget "UDIDDemo" */;
+			buildPhases = (
+				EF16A0681D46FAF600E76903 /* Sources */,
+				EF16A0691D46FAF600E76903 /* Frameworks */,
+				EF16A06A1D46FAF600E76903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDIDDemo;
+			productName = UDIDDemo;
+			productReference = EF16A06C1D46FAF600E76903 /* UDIDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF16A0841D46FAF600E76903 /* UDIDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF16A09C1D46FAF600E76903 /* Build configuration list for PBXNativeTarget "UDIDDemoTests" */;
+			buildPhases = (
+				EF16A0811D46FAF600E76903 /* Sources */,
+				EF16A0821D46FAF600E76903 /* Frameworks */,
+				EF16A0831D46FAF600E76903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF16A0871D46FAF600E76903 /* PBXTargetDependency */,
+			);
+			name = UDIDDemoTests;
+			productName = UDIDDemoTests;
+			productReference = EF16A0851D46FAF600E76903 /* UDIDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF16A08F1D46FAF600E76903 /* UDIDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF16A09F1D46FAF600E76903 /* Build configuration list for PBXNativeTarget "UDIDDemoUITests" */;
+			buildPhases = (
+				EF16A08C1D46FAF600E76903 /* Sources */,
+				EF16A08D1D46FAF600E76903 /* Frameworks */,
+				EF16A08E1D46FAF600E76903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF16A0921D46FAF600E76903 /* PBXTargetDependency */,
+			);
+			name = UDIDDemoUITests;
+			productName = UDIDDemoUITests;
+			productReference = EF16A0901D46FAF600E76903 /* UDIDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF16A0641D46FAF600E76903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhaojun;
+				TargetAttributes = {
+					EF16A06B1D46FAF600E76903 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QK52KGCUT2;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					EF16A0841D46FAF600E76903 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF16A06B1D46FAF600E76903;
+					};
+					EF16A08F1D46FAF600E76903 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF16A06B1D46FAF600E76903;
+					};
+				};
+			};
+			buildConfigurationList = EF16A0671D46FAF600E76903 /* Build configuration list for PBXProject "UDIDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF16A0631D46FAF600E76903;
+			productRefGroup = EF16A06D1D46FAF600E76903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF16A06B1D46FAF600E76903 /* UDIDDemo */,
+				EF16A0841D46FAF600E76903 /* UDIDDemoTests */,
+				EF16A08F1D46FAF600E76903 /* UDIDDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF16A06A1D46FAF600E76903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16A07F1D46FAF600E76903 /* LaunchScreen.storyboard in Resources */,
+				EF16A07C1D46FAF600E76903 /* Assets.xcassets in Resources */,
+				EF16A07A1D46FAF600E76903 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF16A0831D46FAF600E76903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF16A08E1D46FAF600E76903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF16A0681D46FAF600E76903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16A0771D46FAF600E76903 /* ViewController.m in Sources */,
+				EF16A0741D46FAF600E76903 /* AppDelegate.m in Sources */,
+				EF16A0711D46FAF600E76903 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF16A0811D46FAF600E76903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16A08A1D46FAF600E76903 /* UDIDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF16A08C1D46FAF600E76903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16A0951D46FAF600E76903 /* UDIDDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF16A0871D46FAF600E76903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF16A06B1D46FAF600E76903 /* UDIDDemo */;
+			targetProxy = EF16A0861D46FAF600E76903 /* PBXContainerItemProxy */;
+		};
+		EF16A0921D46FAF600E76903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF16A06B1D46FAF600E76903 /* UDIDDemo */;
+			targetProxy = EF16A0911D46FAF600E76903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF16A0781D46FAF600E76903 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF16A0791D46FAF600E76903 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF16A07D1D46FAF600E76903 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF16A07E1D46FAF600E76903 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF16A0971D46FAF600E76903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF16A0981D46FAF600E76903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF16A09A1D46FAF600E76903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 赵 军 (ZT8P4DQ582)";
+				INFOPLIST_FILE = UDIDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk/No2UUID/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.UDIDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d331e1d6-43bd-4e39-bb50-448de569e45e";
+			};
+			name = Debug;
+		};
+		EF16A09B1D46FAF600E76903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 赵 军 (ZT8P4DQ582)";
+				INFOPLIST_FILE = UDIDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk/No2UUID/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.UDIDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d331e1d6-43bd-4e39-bb50-448de569e45e";
+			};
+			name = Release;
+		};
+		EF16A09D1D46FAF600E76903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UDIDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.UDIDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDIDDemo.app/UDIDDemo";
+			};
+			name = Debug;
+		};
+		EF16A09E1D46FAF600E76903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UDIDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.UDIDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDIDDemo.app/UDIDDemo";
+			};
+			name = Release;
+		};
+		EF16A0A01D46FAF600E76903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UDIDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.UDIDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UDIDDemo;
+			};
+			name = Debug;
+		};
+		EF16A0A11D46FAF600E76903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UDIDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.UDIDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UDIDDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF16A0671D46FAF600E76903 /* Build configuration list for PBXProject "UDIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF16A0971D46FAF600E76903 /* Debug */,
+				EF16A0981D46FAF600E76903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF16A0991D46FAF600E76903 /* Build configuration list for PBXNativeTarget "UDIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF16A09A1D46FAF600E76903 /* Debug */,
+				EF16A09B1D46FAF600E76903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF16A09C1D46FAF600E76903 /* Build configuration list for PBXNativeTarget "UDIDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF16A09D1D46FAF600E76903 /* Debug */,
+				EF16A09E1D46FAF600E76903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF16A09F1D46FAF600E76903 /* Build configuration list for PBXNativeTarget "UDIDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF16A0A01D46FAF600E76903 /* Debug */,
+				EF16A0A11D46FAF600E76903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF16A0641D46FAF600E76903 /* Project object */;
+}
